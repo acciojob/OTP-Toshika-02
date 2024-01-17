@@ -46,10 +46,15 @@ body {
     }
 
      .para{
-		 text-align: center;
 		 font-size: 10px;
-		 margin: 50px;
+		 margin: 40px;
 		 background-color: grey;
-		 height: 1
+		 height: 40px;
+		 width: 300px;
+		 border-radius: 3px;
+		margin-top: 50px;
+	   text-align: center;
+		
+		 
 		 
 	 }
