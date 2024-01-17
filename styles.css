@@ -1,4 +1,10 @@
 /*  your css code here. If applicable */
+#container{
+	border: 2px solid black;
+	border-radius: 10px;
+	height: 350px;
+	
+}
 body {
       font-family: Arial, sans-serif;
       display: flex;
@@ -11,13 +17,17 @@ body {
     #verification_heading {
       font-size: 24px;
       font-weight: bold;
-      margin-bottom: 10px;
+      margin-top: 30px;
+	   text-align: center;
     }
 
     #verification_subtext {
-      font-size: 14px;
+      font-size: 12px;
       color: #888;
-      margin-bottom: 20px;
+	  margin: 20px;
+	  margin-bottom: 30px;
+	 text-wrap: nowrap
+	  
     }
 
     .code-container {
@@ -27,10 +37,19 @@ body {
     }
 
     .code {
-      width: 40px;
-      height: 40px;
+      width: 70px;
+      height: 70px;
       font-size: 18px;
       text-align: center;
       border: 1px solid #ccc;
       border-radius: 5px;
     }
+
+     .para{
+		 text-align: center;
+		 font-size: 10px;
+		 margin: 50px;
+		 background-color: grey;
+		 height: 1
+		 
+	 }
